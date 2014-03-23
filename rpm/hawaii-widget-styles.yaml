@@ -1,0 +1,24 @@
+Name       : hawaii-widget-styles
+Version    : 0.2.0.20140103.881d688
+Release    : 1
+Group      : Applications/System
+License    : LGPL 2.1
+Summary    : QtQuick Controls styles
+Description: Styles for QtQuick Controls applications.
+Sources    : 
+    - hawaii-widget-styles-%{version}.tar.xz
+
+Configure  : cmake 
+ConfigOptions: 
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo 
+    - -DCMAKE_INSTALL_PREFIX=/usr
+
+PkgBR:
+    - cmake
+
+PkgConfigBR:
+    - Qt5Core
+    - Qt5Quick
+
+Files:  
+    - "%{_libdir}/qt5/qml/QtQuick/Controls/Styles/Aluminium/*"
