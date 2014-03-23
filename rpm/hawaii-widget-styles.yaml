@@ -1,8 +1,9 @@
 Name       : hawaii-widget-styles
-Version    : 0.2.0.20140103.881d688
+Version    : 0.2.0.20140323.881d688
 Release    : 1
 Group      : Applications/System
 License    : LGPL 2.1
+URL        : https://github.com/mauios/hawaii-widget-styles.git
 Summary    : QtQuick Controls styles
 Description: Styles for QtQuick Controls applications.
 Sources    : 

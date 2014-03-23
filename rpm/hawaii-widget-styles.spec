@@ -9,10 +9,11 @@ Name:       hawaii-widget-styles
 # << macros
 
 Summary:    QtQuick Controls styles
-Version:    0.2.0.20140103.881d688
+Version:    0.2.0.20140323.881d688
 Release:    1
 Group:      Applications/System
 License:    LGPL 2.1
+URL:        https://github.com/mauios/hawaii-widget-styles.git
 Source0:    hawaii-widget-styles-%{version}.tar.xz
 Source100:  hawaii-widget-styles.yaml
 BuildRequires:  pkgconfig(Qt5Core)
