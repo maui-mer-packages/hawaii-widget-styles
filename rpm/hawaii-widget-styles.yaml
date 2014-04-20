@@ -22,4 +22,4 @@ PkgConfigBR:
     - Qt5Quick
 
 Files:  
-    - "%{_libdir}/qt5/qml/QtQuick/Controls/Styles/Aluminium/*"
+    - "%{_libdir}/hawaii/qml/QtQuick/Controls/Styles/Aluminium/*"

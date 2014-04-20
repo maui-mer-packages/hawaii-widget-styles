@@ -55,6 +55,6 @@ cd upstream
 
 %files
 %defattr(-,root,root,-)
-%{_libdir}/qt5/qml/QtQuick/Controls/Styles/Aluminium/*
+%{_libdir}/hawaii/qml/QtQuick/Controls/Styles/Aluminium/*
 # >> files
 # << files
